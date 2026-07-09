@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bob Bobilei | Currículo Profissional</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background:#ffffff;
+    color:#222;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#0a1f44,#000);
+    color:white;
+    padding:40px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.profile img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #1e3a8a;
+}
+
+.profile-info h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.profile-info h2{
+    color:#7fb3ff;
+    font-weight:400;
+    margin-bottom:15px;
+}
+
+.social{
+    margin-top:15px;
+}
+
+.social a{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:45px;
+    height:45px;
+    margin-right:10px;
+    border-radius:50%;
+    background:#102a5c;
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.social a:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+}
+
+main{
+    max-width:1200px;
+    margin:40px auto;
+    padding:0 20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    gap:30px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    margin-bottom:25px;
+}
+
+.card h3{
+    color:#0a1f44;
+    margin-bottom:15px;
+    border-bottom:3px solid #0a1f44;
+    padding-bottom:8px;
+}
+
+.info-item{
+    margin-bottom:15px;
+}
+
+.info-item strong{
+    display:block;
+    color:#0a1f44;
+}
+
+.skill{
+    margin-bottom:12px;
+}
+
+.skill-name{
+    margin-bottom:5px;
+}
+
+.bar{
+    background:#ddd;
+    height:10px;
+    border-radius:10px;
+}
+
+.fill{
+    background:#0a1f44;
+    height:10px;
+    border-radius:10px;
+}
+
+.job{
+    margin-bottom:25px;
+}
+
+.job h4{
+    color:#0a1f44;
+}
+
+.job span{
+    color:#666;
+    font-size:14px;
+}
+
+footer{
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+@media(max-width:900px){
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    .profile{
+        text-align:center;
+        justify-content:center;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="profile">
+
+            <img src="https://images.pexels.com/photos/10497109/pexels-photo-10497109.jpeg" alt="Cachorro Preto">
+
+            <div class="profile-info">
+                <h1>Bob Bobilei</h1>
+                <h2>Gerente Sênior de Projetos e Estratégia Corporativa</h2>
+
+                <p>
+                    Profissional com mais de 15 anos de experiência em gestão de projetos,
+                    liderança de equipes multidisciplinares, planejamento estratégico
+                    e transformação digital.
+                </p>
+
+                <div class="social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<main>
+
+<div class="grid">
+
+    <div>
+
+        <div class="card">
+            <h3>Dados Pessoais</h3>
+
+            <div class="info-item">
+                <strong>Data de Nascimento</strong>
+                12/08/1987
+            </div>
+
+            <div class="info-item">
+                <strong>Email</strong>
+                bob.bobilei@emailprofissional.com
+            </div>
+
+            <div class="info-item">
+                <strong>Telefone</strong>
+                +55 (51) 99876-5432
+            </div>
+
+            <div class="info-item">
+                <strong>Endereço</strong>
+                Rua das Palmeiras, 1450<br>
+                Bairro Bela Vista<br>
+                Porto Alegre - RS<br>
+                CEP 90450-001
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Habilidades</h3>
+
+            <div class="skill">
+                <div class="skill-name">Gestão de Projetos</div>
+                <div class="bar"><div class="fill" style="width:95%"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">Liderança</div>
+                <div class="bar"><div class="fill" style="width:92%"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">Planejamento Estratégico</div>
+                <div class="bar"><div class="fill" style="width:90%"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">Power BI</div>
+                <div class="bar"><div class="fill" style="width:85%"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">Gestão Financeira</div>
+                <div class="bar"><div class="fill" style="width:88%"></div></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Idiomas</h3>
+            <p>Português — Nativo</p>
+            <p>Inglês — Fluente</p>
+            <p>Espanhol — Avançado</p>
+        </div>
+
+    </div>
+
+    <div>
+
+        <div class="card">
+            <h3>Resumo Profissional</h3>
+
+            <p>
+                Executivo com sólida trajetória em empresas de tecnologia,
+                consultoria e gestão corporativa. Especialista em otimização
+                de processos, liderança de equipes de alta performance,
+                implantação de metodologias ágeis e gestão de indicadores
+                estratégicos. Histórico comprovado de aumento de produtividade,
+                redução de custos operacionais e crescimento sustentável.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Experiência Profissional</h3>
+
+            <div class="job">
+                <h4>Diretor de Operações</h4>
+                <span>BlueTech Solutions | 2020 - Atual</span>
+                <p>
+                    Responsável pela gestão estratégica da operação nacional,
+                    conduzindo equipes com mais de 120 colaboradores.
+                    Liderou projetos de transformação digital que geraram
+                    aumento de 35% na eficiência operacional.
+                </p>
+            </div>
+
+            <div class="job">
+                <h4>Gerente Sênior de Projetos</h4>
+                <span>Global Business Consulting | 2015 - 2020</span>
+                <p>
+                    Coordenação de projetos corporativos de grande porte,
+                    controle orçamentário, gestão de riscos e relacionamento
+                    com clientes estratégicos em diversos segmentos.
+                </p>
+            </div>
+
+            <div class="job">
+                <h4>Analista de Processos Corporativos</h4>
+                <span>Innovare Group | 2010 - 2015</span>
+                <p>
+                    Mapeamento e otimização de processos internos,
+                    elaboração de indicadores de desempenho e apoio
+                    à implementação de sistemas ERP.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Formação Acadêmica</h3>
+
+            <p>
+                <strong>MBA em Gestão Estratégica Empresarial</strong><br>
+                Universidade Corporativa Nacional<br>
+                2014 - 2016
+            </p>
+
+            <br>
+
+            <p>
+                <strong>Bacharelado em Administração de Empresas</strong><br>
+                Universidade Federal do Sul<br>
+                2005 - 2009
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Certificações</h3>
+
+            <ul>
+                <li>PMP - Project Management Professional</li>
+                <li>Scrum Master Professional</li>
+                <li>Lean Six Sigma Green Belt</li>
+                <li>Microsoft Power BI Specialist</li>
+                <li>Gestão Avançada de Pessoas</li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+</main>
+
+<footer>
+    © 2026 - Bob Bobilei | Currículo Profissional
+</footer>
+
+</body>
+</html>
